@@ -13,11 +13,11 @@ bg.addEventListener("click", function(){
 	if (cup1[2] || cup2[2] || cup3[2]){
 		if(bgID < 5){
 			bgID++;
-			bg.src ='img/bg0' + bgID + '.png';
+			bg.src ='img/bg0' + bgID + '.jpg';
 			//console.log(bgID);
 		} else {
 			bgID = 0;
-			bg.src ='img/bg0' + bgID + '.png';
+			bg.src ='img/bg0' + bgID + '.jpg';
 			//console.log(bgID);
 		}		
 	}
