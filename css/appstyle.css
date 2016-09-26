@@ -1,0 +1,91 @@
+html, body
+{
+  background-color:white;
+  height: 98%;
+  width: 98%;
+}
+
+#content {
+  position: relative;
+  margin: auto;
+  height: 70%;
+  width: 70%;
+  max-width: 1000px;
+}
+
+#info {
+  margin: auto;
+  height: 30%;
+  width: 70%;
+  max-width: 1000px;
+  font-family: 'Georgia';
+}
+
+#header {
+  width: 100%;
+  padding: 5% 5%;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#header p {
+  font-weight: normal;
+  font-size: 15px;
+  padding: 0% 20%;
+}
+
+#desc {
+
+
+}
+
+#bg {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cup {
+  display: block;
+  position: absolute;
+  margin: auto;
+  max-height: 50%;
+  max-width: 50%;
+  top: 40%;
+  z-index: 2;
+}
+
+.cup:hover {
+  -webkit-filter: drop-shadow(0px 0px 0px #222);
+  filter: drop-shadow(0px 0px 0px #222);
+}
+#cup1 {
+  left: 40%;
+}
+#cup2 {
+  left: 0%;
+}
+
+#cup3 {
+  left: 80%;
+}
+
+#title {
+  position: absolute;
+  z-index: 3;
+  top: 1%;
+  left: 1%;
+  font-family: 'Georgia';
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0px 0px 10px #000000;
+  width: 100%;
+}
